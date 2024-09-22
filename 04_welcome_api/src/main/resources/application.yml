@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  application:
+    name: welcomemsg
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111
